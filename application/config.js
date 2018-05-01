@@ -1,3 +1,3 @@
 export default {
-    OWNER: "defaultOwner"
+    OWNER: "ProjetSW"
 }

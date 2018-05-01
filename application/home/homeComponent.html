@@ -1,0 +1,74 @@
+<!--<div class="col-md-offset-2">
+    <form class="form-horizontal col-md-8 well" name="beerForm" id="beerForm" ng-submit="$ctrl.addBeer()">
+        <fieldset>
+            <legend>Ajouter une bière</legend>
+            
+            <div class="form-group" ng-class="{'has-error': $ctrl.nameIsInvalid}">
+              <label class="col-md-2 control-label" for="name">Nom</label>
+              <div class="col-md-10">
+              <input id="name" name="name" ng-model="$ctrl.beer.name" type="text" placeholder="Angelus" class="form-control input-md" required="">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="col-md-2 control-label" for="comment">Commentaire</label>
+              <div class="col-md-10">
+                <textarea class="form-control" id="comment" name="comment" ng-model="$ctrl.beer.comment">
+                </textarea>
+              </div>
+            </div>
+            
+            <div class="form-group" ng-class="{'has-error': $ctrl.priceIsInvalid}">
+              <label class="col-md-2 control-label" for="priceHT">Prix HT / Prix TTC</label>
+              <div class="col-md-10">
+                <div class="input-group">
+                  <input id="priceHT" name="priceHT" ng-model="$ctrl.beer.priceHT" ng-change="$ctrl.initPriceTTC()" class="form-control" placeholder="6.59" type="number" required="">
+                </div>
+                <div class="input-group">
+                  <input id="priceTTC" name="priceTTC" ng-model="$ctrl.beer.priceTTC" class="form-control" placeholder="+20%" type="text" readonly>
+                </div>
+              </div>
+            </div>
+            
+            <div class="form-group" ng-class="{'has-error': $ctrl.alcoholDegreeIsInvalid}">
+              <label class="col-md-2 control-label" for="alcoholDegree">Degré d'alcool</label>
+              <div class="col-md-10">
+                <div class="input-group">
+                  <input id="alcoholDegree" name="alcoholDegree" ng-model="$ctrl.beer.alcoholDegree" class="form-control" placeholder="5" type="number" required="">
+                </div>
+              </div>
+            </div>
+            
+            <div class="form-group" ng-class="{'has-error': $ctrl.typeIsInvalid}">
+              <label class="col-md-2 control-label" for="type">Type</label>
+              <div class="col-md-10">
+                <select id="type" name="type" class="form-control" ng-model="$ctrl.beer.type">
+                  <option value="BLONDE">BLONDE</option>
+                  <option value="DARK">DARK</option>
+                  <option value="BROWN">BROWN</option>
+                  <option value="IPA">IPA</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="alert alert-danger col-md-12" ng-if="$ctrl.beerFormIsInvalid">
+              <div ng-if="$ctrl.nameIsInvalid">
+                  <strong>Erreur !</strong> Le nom de la bière est incorrect.
+              </div>
+              <div ng-if="$ctrl.priceIsInvalid">
+                  <strong>Erreur !</strong> Le prix de la bière est incorrect.
+              </div>
+              <div ng-if="$ctrl.alcoholDegreeIsInvalid">
+                  <strong>Erreur !</strong> Le degré d'alcool de la bière est incorrect.
+              </div>
+              <div ng-if="$ctrl.typeIsInvalid">
+                  <strong>Erreur !</strong> Le type de la bière est incorrect.
+              </div>
+            </div>
+            
+            <input type="submit" class="btn btn-block btn-success col-md-12" value="Ajouter la bière"/>
+            
+        </fieldset>
+    </form>
+</div>-->
+
